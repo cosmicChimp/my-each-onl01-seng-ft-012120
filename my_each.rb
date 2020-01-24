@@ -8,4 +8,7 @@ def my_each(array)
   
 end
 
-def 
+def hello(array)
+  i = 0 
+    while i < array.length
+      new_array = yield[i]
