@@ -11,4 +11,4 @@ end
 def hello(array)
   i = 0 
     while i < array.length
-      new_array = yield[i]
+      new_array << yield[i]
