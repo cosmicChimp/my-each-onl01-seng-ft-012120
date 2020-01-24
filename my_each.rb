@@ -7,3 +7,5 @@ def my_each(array)
   my_each(list) {[i]}
   
 end
+
+def 
