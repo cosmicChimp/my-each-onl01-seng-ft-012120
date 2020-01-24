@@ -5,4 +5,5 @@ def my_each(array)
       i = i + 1
     end
   my_each(list) {[i]
+  binding.pry
 end
