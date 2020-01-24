@@ -4,7 +4,7 @@ def my_each(array)
       yield(array[i])
       i = i + 1
     end
-  my_each(list) {[i]}
+  my_each(list) {|i| puts "So I think #{i} is a piece of work"}
   
 end
 
@@ -14,4 +14,6 @@ def hello(array)
       new_array << yield(array[i])
       i = i + 1 
     end
+    new array(list) {|i| puts "It worked!"})
     
+  end
