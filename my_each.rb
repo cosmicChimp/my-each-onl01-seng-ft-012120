@@ -5,7 +5,7 @@ def my_each(array)
       must << yield(array[i])
       i = i + 1
     end
-  must
+  array
   
 end
 
