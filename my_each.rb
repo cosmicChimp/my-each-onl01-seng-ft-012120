@@ -19,4 +19,4 @@ def hello(array)
     
   end
   
-  new_array(list) (|i|)
+  new_array(list) {|i| puts "Yay!"}
