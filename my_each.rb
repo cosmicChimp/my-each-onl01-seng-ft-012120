@@ -15,6 +15,6 @@ def hello(array)
       new_array << yield(array[i])
       i = i + 1 
     end
-    new array(list) {|i| puts "It worked!"})
+    new array
     
   end
