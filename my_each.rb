@@ -17,7 +17,7 @@ def hello(array)
       i = i + 1 
     end
     new_array
-    
+    binding.pry
   end
   
   
